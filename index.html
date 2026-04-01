@@ -8,11 +8,12 @@
 </head>
 <body>
     <div class="color-card">
-        <span id="hex-code">#FFFFFF</span>
-        <button id="generate-btn">Generate New Color</button>
-        <button id="copy-color-btn">Copy color</button>
+        <div class="color-box" id="color-box">
+            <span class="color-code" id="color-code">#FFFFFF</span>
+            <button class="copy-btn" onclick="copyColorCode()">Copy</button>
+        </div>
+        <button class="generate-btn" onclick="generateNewColor()">Generate New Color</button>
     </div>
-
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
