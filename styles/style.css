@@ -31,15 +31,34 @@ body {
 
 #generate-btn {
     padding: 10px 20px;
+    margin: 10px 10px 10px 10px;
     font-size: 16px;
     color: white;
+    font-weight: bolder;
     background-color: #007bff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+ #copy-color-btn {
+    padding: 10px 20px;
+    margin: 10px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    background-color: #23ec44;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
 
 #generate-btn:hover {
     background-color: #0056b3;
 }
+
+ #copy-color-btn:hover{
+    background-color: #15b300;
+}
+ }
